@@ -13,6 +13,7 @@
 		2E11D2D419E6384A00CC4081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E11D2D319E6384A00CC4081 /* Images.xcassets */; };
 		2E11D2D719E6384A00CC4081 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E11D2D519E6384A00CC4081 /* LaunchScreen.xib */; };
 		2E11D2E319E6384A00CC4081 /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11D2E219E6384A00CC4081 /* MyFirstAppTests.swift */; };
+		2E11D2ED19E63B5E00CC4081 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11D2EC19E63B5E00CC4081 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2E11D2DC19E6384A00CC4081 /* MyFirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E11D2E119E6384A00CC4081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E11D2E219E6384A00CC4081 /* MyFirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppTests.swift; sourceTree = "<group>"; };
+		2E11D2EC19E63B5E00CC4081 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				2E11D2CC19E6384A00CC4081 /* AppDelegate.swift */,
 				2E11D2CE19E6384A00CC4081 /* ViewController.swift */,
+				2E11D2EC19E63B5E00CC4081 /* TipCalculatorModel.swift */,
 				2E11D2D019E6384A00CC4081 /* Main.storyboard */,
 				2E11D2D319E6384A00CC4081 /* Images.xcassets */,
 				2E11D2D519E6384A00CC4081 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E11D2ED19E63B5E00CC4081 /* TipCalculatorModel.swift in Sources */,
 				2E11D2CF19E6384A00CC4081 /* ViewController.swift in Sources */,
 				2E11D2CD19E6384A00CC4081 /* AppDelegate.swift in Sources */,
 			);
